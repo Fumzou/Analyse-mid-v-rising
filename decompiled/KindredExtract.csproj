@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>KindredExtract</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="KindredExtract.Localization.English.json" />
+    <EmbeddedResource Include="KindredExtract.Localization.English.json" LogicalName="KindredExtract.Localization.English.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Entities" />
+    <Reference Include="ProjectM.Shared" />
+    <Reference Include="BepInEx.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="ProjectM.HUD" />
+    <Reference Include="Stunlock.Core" />
+    <Reference Include="VampireCommandFramework" />
+    <Reference Include="ProjectM" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Stunlock.Console" />
+    <Reference Include="Unity.Collections" />
+    <Reference Include="ProjectM.CodeGeneration" />
+    <Reference Include="Unity.Physics" />
+    <Reference Include="Stunlock.Localization" />
+    <Reference Include="BepInEx.Unity.IL2CPP" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Unity.Scenes" />
+    <Reference Include="Stunlock.Network" />
+    <Reference Include="ProjectM.Gameplay.Systems" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="Unity.Mathematics" />
+    <Reference Include="Unity.Transforms" />
+    <Reference Include="ProjectM.Terrain" />
+    <Reference Include="ProjectM.GeneratedNetCode" />
+    <Reference Include="ProjectM.Gameplay.Scripting" />
+    <Reference Include="ProjectM.Behaviours" />
+    <Reference Include="ProjectM.Presentation.Systems" />
+    <Reference Include="ProjectM.CastleBuilding.Systems" />
+    <Reference Include="Unity.Entities.Graphics" />
+    <Reference Include="Unity.Physics.Hybrid" />
+    <Reference Include="ProjectM.ScriptableSystems" />
+    <Reference Include="Unity.Entities.Hybrid" />
+    <Reference Include="ProjectM.Shared.Systems" />
+    <Reference Include="ProjectM.Conversion" />
+    <Reference Include="Stunlock.Animation.StunCloth.Runtime" />
+    <Reference Include="ProjectM.Haptics" />
+    <Reference Include="ProjectM.Pathfinding" />
+    <Reference Include="ProjectM.Wind.Shared" />
+    <Reference Include="Stunlock.Core.Animation" />
+    <Reference Include="Sequencer" />
+    <Reference Include="Unity.Transforms.Hybrid" />
+    <Reference Include="Rukhanka.Hybrid" />
+    <Reference Include="Unity.Deformations" />
+    <Reference Include="ProjectM.Misc.Systems" />
+    <Reference Include="ProjectM.Camera" />
+    <Reference Include="ProjectM.Steam" />
+    <Reference Include="ProjectM.CastleDyeSystem" />
+    <Reference Include="ProjectM.LiveBuildPerformanceTests.GlowingVampire" />
+    <Reference Include="Rukhanka.Runtime" />
+  </ItemGroup>
+</Project>

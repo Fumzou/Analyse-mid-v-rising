@@ -1,0 +1,10 @@
+{
+"name": "KindredExtract",
+"version_number": "1.8.2",
+"description": "Dumps Info",
+"website_url": "https://github.com/Odjit/KindredExtract",
+"dependencies":[
+"BepInEx-BepInExPack_V_Rising-1.691.3",
+"deca-VampireCommandFramework-0.10.4"
+]
+}
